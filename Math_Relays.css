@@ -1,0 +1,33 @@
+/*
+ *  File: Math_Relays.css    Author: Jeffery A. Solheim    Date: August, 2014
+ *
+ *  This file contains several CSS rules employed within the Math Relays
+ *  web application.
+ */
+
+    input[type='submit'] { width: 100%; }
+    input[type='text']   { padding-left:6px; }
+    table, th, td  { border:1px solid black;
+                       padding-left:10px; padding-right:10px;
+                       padding-top:4px; padding-bottom:4px; }
+      fieldset       { border-style:solid; border-color:red; display:inline-block; }
+      legend         { font-style:italic; text-align:center; font-weight:bold; }
+      select         { font-family:'Lucida Console', Monaco, monospace; }
+      .updated       { background:#FFE2F1; }
+      .inserted      { background:#D0FFD0; }
+      .deleted       { background:#E0E0E0; }
+      .not_displayed         { display:none; }
+      input[readonly]
+                    { background:#E0E0E0; }
+      select[disabled]
+                    { background:LightGray; }
+      button, select, input[type='text']
+                     { width: 100%;
+                       -webkit-box-sizing: border-box;
+                       -moz-box-sizing:    border-box;
+                       box-sizing:         border-box; }
+      tr, select, input[type='text']
+                     { -webkit-transition: background 0.5s ease-in-out;
+                       -moz-transition:    background 0.5s ease-in-out;
+                       -o-transition:      background 0.5s ease-in-out;
+                       transition:         background 0.5s ease-in-out; }
